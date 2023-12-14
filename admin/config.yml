@@ -46,15 +46,15 @@ collections:
     name: pages
     delete: false
     files:
-      - name: about-index.md
-        label: 關於主辦方
-        file: source/about/index.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: past_exams-index.md
         label: 歷屆試題
         file: source/past_exams/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: about-index.md
+        label: 關於主辦方
+        file: source/about/index.md
         editor:
           preview: true
         fields: *ref_0
