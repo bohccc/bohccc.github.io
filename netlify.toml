@@ -1,0 +1,37 @@
+# Global settings applied to the whole site.
+[build]
+  # Directory to change to before starting a build.
+  # If you are running a command that does not require being in the root of your repo,
+  # this is where to tell Netlify to look for a different directory.
+  # base = "project/"
+
+  # The command to run. Netlify will run this command from the base directory.
+  publish = "public/"
+  command = "hexo generate"
+
+  # This is the directory that you are publishing from, relative to the root of your repository.
+  # For a Hugo site, this will often be "public/".
+  # publish = "public/"
+
+# Redirects and rewrites are declared in the same configuration file.
+# [[redirects]]
+#   from = "/*"
+#   to = "/index.html"
+#   status = 200
+
+# Custom headers are set in the same configuration file.
+# [[headers]]
+#   for = "/*"
+#   [headers.values]
+#   X-Frame-Options = "DENY"
+#   X-XSS-Protection = "1; mode=block"
+
+# If you need to set environment variables, you can do so in the configuration file.
+# [context.production.environment]
+#   HUGO_VERSION = "0.54.0"
+
+# You can set different environment variables for different contexts.
+# [context.deploy-preview.environment]
+#   HUGO_VERSION = "0.54.0"
+# [context.branch-deploy.environment]
+#   HUGO_VERSION = "0.54.0"
