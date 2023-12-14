@@ -46,9 +46,9 @@ collections:
     name: pages
     delete: false
     files:
-      - name: past_exams-index.md
-        label: 歷屆試題
-        file: source/past_exams/index.md
+      - name: past_grades-index.md
+        label: 歷屆成績
+        file: source/past_grades/index.md
         editor:
           preview: true
         fields: *ref_0
@@ -58,15 +58,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: past_grades-index.md
-        label: 歷屆成績
-        file: source/past_grades/index.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: present-index.md
         label: 名次獎勵
         file: source/present/index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: past_exams-index.md
+        label: 歷屆試題
+        file: source/past_exams/index.md
         editor:
           preview: true
         fields: *ref_0
